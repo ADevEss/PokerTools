@@ -12,7 +12,7 @@ function calculeCote(event) {
     const cote = mise / (taille + mise );
     const percent = cote * 100
     
-     document.getElementById("result").textContent = `Les cotes sont : ${cote.toFixed(2)}%`;
+     document.getElementById("result").textContent = `Les cotes sont : ${percent.toFixed(2)}%`;
         
 
 }

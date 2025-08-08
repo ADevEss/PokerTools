@@ -9,8 +9,10 @@ function calculeCote(event) {
 
     let taille = parseFloat(document.getElementById("potAmount").value);
     let mise =  parseFloat(document.getElementById("betAmount").value);
-    const cote = taille / mise;
-     document.getElementById("result").textContent = `Les cotes sont : ${cote.toFixed(2)}`;
+    const cote = mise / (taille + mise );
+    const percent = cote * 100
+    
+     document.getElementById("result").textContent = `Les cotes sont : ${cote.toFixed(2)}%`;
         
 
 }

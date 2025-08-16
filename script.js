@@ -17,6 +17,5 @@ function calculeCote(event) {
 
 }
 
-
-
 bouton.addEventListener("click",calculeCote);
+

@@ -1,7 +1,4 @@
 
-// Variables : 
-
-
 const bouton = document.querySelector(".btn");
 
 function calculeCote(event) {
@@ -16,6 +13,7 @@ function calculeCote(event) {
         
 
 }
+
 
 bouton.addEventListener("click",calculeCote);
 
